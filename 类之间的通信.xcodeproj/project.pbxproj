@@ -15,6 +15,8 @@
 		18EC4BAE21C741C500E41935 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4BAD21C741C500E41935 /* main.m */; };
 		18EC4BB821C741C600E41935 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4BB721C741C600E41935 /* ______Tests.m */; };
 		18EC4BC321C741C600E41935 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4BC221C741C600E41935 /* ______UITests.m */; };
+		18EC4BD221C7467800E41935 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4BD121C7467800E41935 /* AViewController.m */; };
+		18EC4BD521C7468000E41935 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EC4BD421C7468000E41935 /* BViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		18EC4BBE21C741C600E41935 /* 类之间的通信UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "类之间的通信UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EC4BC221C741C600E41935 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		18EC4BC421C741C600E41935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EC4BD021C7467800E41935 /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		18EC4BD121C7467800E41935 /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		18EC4BD321C7468000E41935 /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		18EC4BD421C7468000E41935 /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				18EC4B9F21C741C100E41935 /* AppDelegate.m */,
 				18EC4BA121C741C100E41935 /* ViewController.h */,
 				18EC4BA221C741C100E41935 /* ViewController.m */,
+				18EC4BD021C7467800E41935 /* AViewController.h */,
+				18EC4BD121C7467800E41935 /* AViewController.m */,
+				18EC4BD321C7468000E41935 /* BViewController.h */,
+				18EC4BD421C7468000E41935 /* BViewController.m */,
 				18EC4BA421C741C100E41935 /* Main.storyboard */,
 				18EC4BA721C741C500E41935 /* Assets.xcassets */,
 				18EC4BA921C741C500E41935 /* LaunchScreen.storyboard */,
@@ -262,8 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EC4BD221C7467800E41935 /* AViewController.m in Sources */,
 				18EC4BA321C741C100E41935 /* ViewController.m in Sources */,
 				18EC4BAE21C741C500E41935 /* main.m in Sources */,
+				18EC4BD521C7468000E41935 /* BViewController.m in Sources */,
 				18EC4BA021C741C100E41935 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
